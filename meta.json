@@ -1,0 +1,14 @@
+{
+  "category": "Authentication",
+  "changelog": "Initial release.",
+  "description": "Kubarr accounts sign in to Jellyfin (browser single sign-on and native-app passwords), Kubarr keeps those accounts in step, and Kubarr sets the server up without the startup wizard.",
+  "guid": "6deccf4f-c5ca-4286-8d37-aec40a40f122",
+  "name": "Kubarr",
+  "overview": "Sign in with Kubarr",
+  "owner": "kubarr",
+  "targetAbi": "12.3.0.0",
+  "version": "1.0.0.0",
+  "status": "Active",
+  "autoUpdate": false,
+  "assemblies": ["Jellyfin.Plugin.Kubarr.dll"]
+}

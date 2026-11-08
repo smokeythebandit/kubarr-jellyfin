@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/Jellyfin.Plugin.Kubarr/Jellyfin.Plugin.Kubarr.csproj" />
+  <Project Path="tests/Jellyfin.Plugin.Kubarr.Tests/Jellyfin.Plugin.Kubarr.Tests.csproj" />
+</Solution>

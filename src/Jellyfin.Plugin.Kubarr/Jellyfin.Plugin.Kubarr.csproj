@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Jellyfin.Plugin.Kubarr</RootNamespace>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!-- Jellyfin provides these at runtime; the plugin folder ships only our DLL. -->
+  <ItemGroup>
+    <PackageReference Include="Jellyfin.Controller" Version="12.3.0" ExcludeAssets="runtime" />
+    <PackageReference Include="Jellyfin.Database.Implementations" Version="12.3.0" ExcludeAssets="runtime" />
+  </ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Web\sso.html" />
+    <InternalsVisibleTo Include="Jellyfin.Plugin.Kubarr.Tests" />
+  </ItemGroup>
+</Project>
